@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "target": "es5",
+    "lib": ["ES2021"],
+    "types": ["node", "jest"],
+    "noEmit": true,
+    "baseUrl": "./",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist/**/*"]
+}

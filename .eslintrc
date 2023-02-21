@@ -1,0 +1,13 @@
+{
+  "extends": ["airbnb-base", "airbnb-typescript/base", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/array-type": ["error", {
+      "default": "generic",
+      "readonly": "generic"
+    }]
+  }
+}
