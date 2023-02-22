@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[war-api.ts:7](https://github.com/art0rz/foxhole-warapi/blob/0436353/src/war-api.ts#L7)
+[war-api.ts:7](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/war-api.ts#L7)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[war-api.ts:6](https://github.com/art0rz/foxhole-warapi/blob/0436353/src/war-api.ts#L6)
+[war-api.ts:6](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/war-api.ts#L6)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[war-api.ts:8](https://github.com/art0rz/foxhole-warapi/blob/0436353/src/war-api.ts#L8)
+[war-api.ts:8](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/war-api.ts#L8)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[war-api.ts:9](https://github.com/art0rz/foxhole-warapi/blob/0436353/src/war-api.ts#L9)
+[war-api.ts:9](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/war-api.ts#L9)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[war-api.ts:5](https://github.com/art0rz/foxhole-warapi/blob/0436353/src/war-api.ts#L5)
+[war-api.ts:5](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/war-api.ts#L5)
