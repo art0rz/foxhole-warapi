@@ -1,3 +1,5 @@
+## [1.2.2](https://github.com/art0rz/foxhole-warapi/compare/v1.2.1...v1.2.2) (2023-02-22)
+
 ## [1.2.1](https://github.com/art0rz/foxhole-warapi/compare/v1.2.0...v1.2.1) (2023-02-22)
 
 
