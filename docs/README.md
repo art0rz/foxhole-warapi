@@ -34,7 +34,7 @@ foxhole-warapi
 
 #### Defined in
 
-[types.ts:20](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/types.ts#L20)
+[types.ts:20](https://github.com/art0rz/foxhole-warapi/blob/d057239/src/types.ts#L20)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[types.ts:1](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/types.ts#L1)
+[types.ts:1](https://github.com/art0rz/foxhole-warapi/blob/d057239/src/types.ts#L1)
 
 ## Functions
 
@@ -67,7 +67,7 @@ Matches each MapItem with the closest MapTextItem.
 
 #### Defined in
 
-[war-api.ts:32](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/war-api.ts#L32)
+[war-api.ts:32](https://github.com/art0rz/foxhole-warapi/blob/d057239/src/war-api.ts#L32)
 
 ___
 
@@ -90,7 +90,7 @@ Given a MapItem and a list of MapTextItems, finds the nearest MapTextItem. This 
 
 #### Defined in
 
-[war-api.ts:23](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/war-api.ts#L23)
+[war-api.ts:23](https://github.com/art0rz/foxhole-warapi/blob/d057239/src/war-api.ts#L23)
 
 ___
 
@@ -112,7 +112,7 @@ Returns a list of each MapFlag that the flags contain.
 
 #### Defined in
 
-[war-api.ts:61](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/war-api.ts#L61)
+[war-api.ts:61](https://github.com/art0rz/foxhole-warapi/blob/d057239/src/war-api.ts#L61)
 
 ___
 
@@ -135,4 +135,4 @@ Returns true if the flags number contains the given MapFlag.
 
 #### Defined in
 
-[war-api.ts:53](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/war-api.ts#L53)
+[war-api.ts:53](https://github.com/art0rz/foxhole-warapi/blob/d057239/src/war-api.ts#L53)

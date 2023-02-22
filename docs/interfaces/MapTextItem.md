@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[types.ts:26](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/types.ts#L26)
+[types.ts:26](https://github.com/art0rz/foxhole-warapi/blob/d057239/src/types.ts#L26)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[types.ts:23](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/types.ts#L23)
+[types.ts:23](https://github.com/art0rz/foxhole-warapi/blob/d057239/src/types.ts#L23)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[types.ts:24](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/types.ts#L24)
+[types.ts:24](https://github.com/art0rz/foxhole-warapi/blob/d057239/src/types.ts#L24)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[types.ts:25](https://github.com/art0rz/foxhole-warapi/blob/3b61061/src/types.ts#L25)
+[types.ts:25](https://github.com/art0rz/foxhole-warapi/blob/d057239/src/types.ts#L25)
