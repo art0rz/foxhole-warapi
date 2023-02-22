@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/art0rz/foxhole-warapi/compare/v1.2.0...v1.2.1) (2023-02-22)
+
+
+### Bug Fixes
+
+* **build:** change build directory ([a43971e](https://github.com/art0rz/foxhole-warapi/commit/a43971e7f0ae2276816a8613187f8b1ea466f20c))
+* **build:** change build directory ([fa800ea](https://github.com/art0rz/foxhole-warapi/commit/fa800ea80eaf0beb9f234dacda2fc36bf0a347ae))
+
 # [1.2.0](https://github.com/art0rz/foxhole-warapi/compare/v1.1.0...v1.2.0) (2023-02-22)
 
 
