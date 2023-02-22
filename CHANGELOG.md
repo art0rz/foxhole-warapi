@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/art0rz/foxhole-warapi/compare/v1.0.2...v1.1.0) (2023-02-22)
+
+
+### Features
+
+* add commitlint ([1303114](https://github.com/art0rz/foxhole-warapi/commit/130311493809c4cdcd61c66585a5e01588070a53))
+* add lint-staged with eslint setup ([bc9194f](https://github.com/art0rz/foxhole-warapi/commit/bc9194fdec76d9a1f79af5af0d4341013df50a26))
+
 ## [1.0.2](https://github.com/art0rz/foxhole-warapi/compare/v1.0.1...v1.0.2) (2023-02-22)
 
 
