@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/art0rz/foxhole-warapi/compare/v1.0.1...v1.0.2) (2023-02-22)
+
+
+### Bug Fixes
+
+* add @semantic-release/npm ([02a6819](https://github.com/art0rz/foxhole-warapi/commit/02a6819a9738fc77e3be3995babde9217d755f30))
+
 ## [1.0.1](https://github.com/art0rz/foxhole-warapi/compare/v1.0.0...v1.0.1) (2023-02-22)
 
 
