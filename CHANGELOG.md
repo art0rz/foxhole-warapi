@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/art0rz/foxhole-warapi/compare/v1.1.0...v1.2.0) (2023-02-22)
+
+
+### Features
+
+* **types:** add additional types ([85ada9f](https://github.com/art0rz/foxhole-warapi/commit/85ada9ffce1e7e490745485f8ac9424147f4fca1))
+
 # [1.1.0](https://github.com/art0rz/foxhole-warapi/compare/v1.0.2...v1.1.0) (2023-02-22)
 
 
