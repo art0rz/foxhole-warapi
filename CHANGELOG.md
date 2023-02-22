@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/art0rz/foxhole-warapi/compare/v1.0.0...v1.0.1) (2023-02-22)
+
+
+### Bug Fixes
+
+* remove docs pipeline as it was interfering with semantic-release ([b8b3ce9](https://github.com/art0rz/foxhole-warapi/commit/b8b3ce9dd0edb7d50cb42b1177899d7b04006c5b))
+
 # 1.0.0 (2023-02-22)
 
 
