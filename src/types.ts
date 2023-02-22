@@ -96,3 +96,8 @@ export interface MapTextItem {
 	y: number;
 	mapMarkerType: MapMarkerType;
 }
+
+export interface CombinedMapData {
+	mapItem: MapItem;
+	mapTextItem: MapTextItem;
+}

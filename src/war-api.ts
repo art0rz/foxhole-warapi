@@ -1,4 +1,4 @@
-import { MapItem, MapTextItem } from './types';
+import { CombinedMapData, MapItem, MapTextItem } from './types';
 import { distanceBetweenPoints } from './math';
 
 export enum MapFlags {
@@ -32,10 +32,7 @@ export function findNearestTextItem(mapItem: MapItem, mapTextItems: Array<MapTex
 export function combineDynamicWithStaticData(
 	mapItems: Array<MapItem>,
 	mapTextItems: Array<MapTextItem>
-): Array<{
-	mapItem: MapItem;
-	mapTextItem: MapTextItem;
-}> {
+): Array<CombinedMapData> {
 	return mapItems
 		.map<any>(mapItem => {
 			const mapTextItem = findNearestTextItem(mapItem, mapTextItems);
