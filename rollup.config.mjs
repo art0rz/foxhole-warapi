@@ -22,8 +22,9 @@ export default [{
 	],
 	plugins: [typescript(), terser()]
 }, {
-	input: pkg.types,
+	input: 'src/index.ts',
 	output: {
+		file: pkg.types,
 		format: 'cjs'
 	},
 	plugins: [dts()]
