@@ -43,7 +43,7 @@ foxhole-warapi
 
 #### Defined in
 
-[types.ts:99](https://github.com/art0rz/foxhole-warapi/blob/faccaba/src/types.ts#L99)
+[types.ts:99](https://github.com/art0rz/foxhole-warapi/blob/e697d5c/src/types.ts#L99)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[types.ts:1](https://github.com/art0rz/foxhole-warapi/blob/faccaba/src/types.ts#L1)
+[types.ts:1](https://github.com/art0rz/foxhole-warapi/blob/e697d5c/src/types.ts#L1)
 
 ## Functions
 
@@ -76,7 +76,7 @@ Matches each MapItem with the closest MapTextItem.
 
 #### Defined in
 
-[war-api.ts:33](https://github.com/art0rz/foxhole-warapi/blob/faccaba/src/war-api.ts#L33)
+[war-api.ts:24](https://github.com/art0rz/foxhole-warapi/blob/e697d5c/src/war-api.ts#L24)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[war-api.ts:83](https://github.com/art0rz/foxhole-warapi/blob/faccaba/src/war-api.ts#L83)
+[war-api.ts:74](https://github.com/art0rz/foxhole-warapi/blob/e697d5c/src/war-api.ts#L74)
 
 ___
 
@@ -119,7 +119,7 @@ Returns a list of CombinedMapData where the map flags or team id from the two ar
 
 #### Defined in
 
-[war-api.ts:69](https://github.com/art0rz/foxhole-warapi/blob/faccaba/src/war-api.ts#L69)
+[war-api.ts:60](https://github.com/art0rz/foxhole-warapi/blob/e697d5c/src/war-api.ts#L60)
 
 ___
 
@@ -142,7 +142,7 @@ Given a MapItem and a list of MapTextItems, finds the nearest MapTextItem. This 
 
 #### Defined in
 
-[war-api.ts:24](https://github.com/art0rz/foxhole-warapi/blob/faccaba/src/war-api.ts#L24)
+[war-api.ts:15](https://github.com/art0rz/foxhole-warapi/blob/e697d5c/src/war-api.ts#L15)
 
 ___
 
@@ -164,7 +164,7 @@ Returns a list of each MapFlag that the flags contain.
 
 #### Defined in
 
-[war-api.ts:59](https://github.com/art0rz/foxhole-warapi/blob/faccaba/src/war-api.ts#L59)
+[war-api.ts:50](https://github.com/art0rz/foxhole-warapi/blob/e697d5c/src/war-api.ts#L50)
 
 ___
 
@@ -187,4 +187,4 @@ Returns true if the flags number contains the given MapFlag.
 
 #### Defined in
 
-[war-api.ts:51](https://github.com/art0rz/foxhole-warapi/blob/faccaba/src/war-api.ts#L51)
+[war-api.ts:42](https://github.com/art0rz/foxhole-warapi/blob/e697d5c/src/war-api.ts#L42)

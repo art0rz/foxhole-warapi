@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Coverage-97%25-83A603.svg?prefix=$coverage$)
+![](https://img.shields.io/badge/Coverage-92%25-83A603.svg?prefix=$coverage$)
 [![pipeline status](https://github.com/art0rz/foxhole-warapi/actions/workflows/release.yml/badge.svg)](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 [![npm version](https://badge.fury.io/js/foxhole-warapi.svg)](https://www.npmjs.com/package/foxhole-warapi)
 # Foxhole WarAPI utilities and TypeScript types
