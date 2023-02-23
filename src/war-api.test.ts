@@ -159,44 +159,6 @@ describe('determineEventStatusType', () => {
 			determineEventStatusType({
 				old: {
 					mapItem: {
-						teamId: 'WARDENS',
-						iconType: 56,
-						x: 0.5124967,
-						y: 0.51357573,
-						flags: 5,
-					},
-					mapTextItem: {
-						text: 'Buckler Sound',
-						x: 0.51059383,
-						y: 0.5146678,
-						mapMarkerType: 'Major',
-					},
-				},
-				new: {
-					mapItem: {
-						teamId: 'WARDENS',
-						iconType: 56,
-						x: 0.5124967,
-						y: 0.51357573,
-						flags: 9,
-					},
-					mapTextItem: {
-						text: 'Buckler Sound',
-						x: 0.51059383,
-						y: 0.5146678,
-						mapMarkerType: 'Major',
-					},
-				},
-			})
-		).toEqual({
-			event: EventType.Won,
-			byTeam: 'WARDENS',
-		});
-
-		expect(
-			determineEventStatusType({
-				old: {
-					mapItem: {
 						teamId: 'NONE',
 						iconType: 28,
 						x: 0.6182004,
@@ -313,35 +275,35 @@ describe('determineEventStatusType', () => {
 					mapItem: {
 						teamId: 'COLONIALS',
 						iconType: 56,
-						x: 0.41615328,
-						y: 0.70517087,
-						flags: 8,
+						x: 0.6399292,
+						y: 0.8997526,
+						flags: 4,
 					},
 					mapTextItem: {
-						text: 'The First Coin',
-						x: 0.40840903,
-						y: 0.7184508,
+						text: 'Lockheed',
+						x: 0.6407603,
+						y: 0.8987701,
 						mapMarkerType: 'Major',
 					},
 				},
 				new: {
 					mapItem: {
 						teamId: 'COLONIALS',
-						iconType: 57,
-						x: 0.41615328,
-						y: 0.70517087,
-						flags: 4,
+						iconType: 58,
+						x: 0.6399292,
+						y: 0.8997526,
+						flags: 8,
 					},
 					mapTextItem: {
-						text: 'The First Coin',
-						x: 0.40840903,
-						y: 0.7184508,
+						text: 'Lockheed',
+						x: 0.6407603,
+						y: 0.8987701,
 						mapMarkerType: 'Major',
 					},
 				},
 			})
 		).toEqual({
-			event: EventType.Upgrading,
+			event: EventType.Upgraded,
 			byTeam: 'COLONIALS',
 		});
 	});

@@ -126,7 +126,7 @@ export enum EventType {
 	UnderConstruction = 'UnderConstruction',
 	ConstructionCancelled = 'ConstructionCancelled',
 	Won = 'Won',
-	Upgrading = 'Upgrading',
+	Upgraded = 'Upgraded',
 }
 
 export interface Event {

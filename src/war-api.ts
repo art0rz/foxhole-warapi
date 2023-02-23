@@ -1,4 +1,13 @@
-import { CombinedMapData, DiffedMapData, EventType, MapFlags, MapItem, MapTextItem, Event } from './types';
+import {
+	CombinedMapData,
+	DiffedMapData,
+	Event,
+	EventType,
+	MapFlags,
+	MapIconTypes,
+	MapItem,
+	MapTextItem,
+} from './types';
 import { distanceBetweenPoints } from './math';
 
 const mapFlagValues: Record<MapFlags, number> = {
@@ -90,10 +99,12 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 	if (
 		oldFlags.includes(MapFlags.IsBuildSite) === true &&
 		newFlags.includes(MapFlags.IsBuildSite) === false &&
-		data.old.mapItem.teamId === data.new.mapItem.teamId
+		data.old.mapItem.teamId === data.new.mapItem.teamId &&
+		data.old.mapItem.iconType === MapIconTypes.Town_Base_1 &&
+		data.new.mapItem.iconType === MapIconTypes.Town_Base_3
 	) {
 		return {
-			event: EventType.Won,
+			event: EventType.Upgraded,
 			byTeam: data.new.mapItem.teamId,
 		};
 	}
@@ -130,18 +141,6 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 	) {
 		return {
 			event: EventType.ConstructionCancelled,
-			byTeam: data.old.mapItem.teamId,
-		};
-	}
-
-	if (
-		oldFlags.includes(MapFlags.IsBuildSite) === false &&
-		newFlags.includes(MapFlags.IsBuildSite) === true &&
-		data.old.mapItem.teamId !== 'NONE' &&
-		data.new.mapItem.teamId === data.old.mapItem.teamId
-	) {
-		return {
-			event: EventType.Upgrading,
 			byTeam: data.old.mapItem.teamId,
 		};
 	}
