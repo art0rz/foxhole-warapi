@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[types.ts:134](https://github.com/art0rz/foxhole-warapi/blob/f2ea5d4/src/types.ts#L134)
+[types.ts:134](https://github.com/art0rz/foxhole-warapi/blob/a29aebc/src/types.ts#L134)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[types.ts:133](https://github.com/art0rz/foxhole-warapi/blob/f2ea5d4/src/types.ts#L133)
+[types.ts:133](https://github.com/art0rz/foxhole-warapi/blob/a29aebc/src/types.ts#L133)
