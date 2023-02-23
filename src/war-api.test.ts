@@ -121,31 +121,182 @@ describe('determineEventStatusType', () => {
 			determineEventStatusType({
 				old: {
 					mapItem: {
-						teamId: 'NONE',
+						teamId: 'COLONIALS',
 						iconType: 56,
-						x: 0.5124967,
-						y: 0.51357573,
-						flags: 1,
+						x: 0.8525794,
+						y: 0.5295663,
+						flags: 4,
 					},
 					mapTextItem: {
-						text: 'Buckler Sound',
-						x: 0.51059383,
-						y: 0.5146678,
+						text: 'Tuatha Watchpost',
+						x: 0.853922,
+						y: 0.5507405,
+						mapMarkerType: 'Major',
+					},
+				},
+				new: {
+					mapItem: {
+						teamId: 'COLONIALS',
+						iconType: 57,
+						x: 0.8525794,
+						y: 0.5295663,
+						flags: 8,
+					},
+					mapTextItem: {
+						text: 'Tuatha Watchpost',
+						x: 0.853922,
+						y: 0.5507405,
+						mapMarkerType: 'Major',
+					},
+				},
+			})
+		).toEqual({
+			event: EventType.Upgraded,
+			byTeam: 'COLONIALS',
+		});
+		expect(
+			determineEventStatusType({
+				old: {
+					mapItem: {
+						teamId: 'COLONIALS',
+						iconType: 45,
+						x: 0.6523639,
+						y: 0.7225221,
+						flags: 8,
+					},
+					mapTextItem: {
+						text: 'Spirit Watch',
+						x: 0.6523898,
+						y: 0.7255189,
+						mapMarkerType: 'Major',
+					},
+				},
+				new: {
+					mapItem: {
+						teamId: 'NONE',
+						iconType: 45,
+						x: 0.6523639,
+						y: 0.7225221,
+						flags: 0,
+					},
+					mapTextItem: {
+						text: 'Spirit Watch',
+						x: 0.6523898,
+						y: 0.7255189,
+						mapMarkerType: 'Major',
+					},
+				},
+			})
+		).toEqual({
+			event: EventType.Lost,
+			byTeam: 'COLONIALS',
+		});
+
+		expect(
+			determineEventStatusType({
+				old: {
+					mapItem: {
+						teamId: 'COLONIALS',
+						iconType: 28,
+						x: 0.841185,
+						y: 0.52723134,
+						flags: 0,
+					},
+					mapTextItem: {
+						text: 'Mousetrap',
+						x: 0.8401006,
+						y: 0.53316337,
+						mapMarkerType: 'Major',
+					},
+				},
+				new: {
+					mapItem: {
+						teamId: 'NONE',
+						iconType: 28,
+						x: 0.841185,
+						y: 0.52723134,
+						flags: 0,
+					},
+					mapTextItem: {
+						text: 'Mousetrap',
+						x: 0.8401006,
+						y: 0.53316337,
+						mapMarkerType: 'Major',
+					},
+				},
+			})
+		).toEqual({
+			event: EventType.Lost,
+			byTeam: 'COLONIALS',
+		});
+
+		expect(
+			determineEventStatusType({
+				old: {
+					mapItem: {
+						teamId: 'COLONIALS',
+						iconType: 56,
+						x: 0.8392175,
+						y: 0.54724175,
+						flags: 8,
+					},
+					mapTextItem: {
+						text: 'Mousetrap',
+						x: 0.8401006,
+						y: 0.53316337,
+						mapMarkerType: 'Major',
+					},
+				},
+				new: {
+					mapItem: {
+						teamId: 'NONE',
+						iconType: 56,
+						x: 0.8392175,
+						y: 0.54724175,
+						flags: 0,
+					},
+					mapTextItem: {
+						text: 'Mousetrap',
+						x: 0.8401006,
+						y: 0.53316337,
+						mapMarkerType: 'Major',
+					},
+				},
+			})
+		).toEqual({
+			event: EventType.Lost,
+			byTeam: 'COLONIALS',
+		});
+
+		expect(
+			determineEventStatusType({
+				old: {
+					mapItem: {
+						teamId: 'NONE',
+						iconType: 40,
+						x: 0.11745039,
+						y: 0.473913,
+						flags: 0,
+					},
+					mapTextItem: {
+						text: 'Hungry Wolf',
+						x: 0.17645623,
+						y: 0.46003953,
 						mapMarkerType: 'Major',
 					},
 				},
 				new: {
 					mapItem: {
 						teamId: 'WARDENS',
-						iconType: 56,
-						x: 0.5124967,
-						y: 0.51357573,
-						flags: 5,
+						iconType: 40,
+						x: 0.11745039,
+						y: 0.473913,
+						flags: 4,
 					},
 					mapTextItem: {
-						text: 'Buckler Sound',
-						x: 0.51059383,
-						y: 0.5146678,
+						text: 'Hungry Wolf',
+						x: 0.17645623,
+						y: 0.46003953,
 						mapMarkerType: 'Major',
 					},
 				},
@@ -159,191 +310,39 @@ describe('determineEventStatusType', () => {
 			determineEventStatusType({
 				old: {
 					mapItem: {
-						teamId: 'NONE',
-						iconType: 28,
-						x: 0.6182004,
-						y: 0.78928536,
-						flags: 0,
-					},
-					mapTextItem: {
-						text: 'Integrum',
-						x: 0.6686882,
-						y: 0.773776,
-						mapMarkerType: 'Major',
-					},
-				},
-				new: {
-					mapItem: {
-						teamId: 'COLONIALS',
-						iconType: 28,
-						x: 0.6182004,
-						y: 0.78928536,
-						flags: 0,
-					},
-					mapTextItem: {
-						text: 'Integrum',
-						x: 0.6686882,
-						y: 0.773776,
-						mapMarkerType: 'Major',
-					},
-				},
-			})
-		).toEqual({
-			event: EventType.Won,
-			byTeam: 'COLONIALS',
-		});
-
-		expect(
-			determineEventStatusType({
-				old: {
-					mapItem: {
 						teamId: 'WARDENS',
-						iconType: 47,
-						x: 0.38665664,
-						y: 0.30743244,
-						flags: 8,
-					},
-					mapTextItem: {
-						text: 'Shattered Advance',
-						x: 0.38944197,
-						y: 0.30851248,
-						mapMarkerType: 'Major',
-					},
-				},
-				new: {
-					mapItem: {
-						teamId: 'NONE',
-						iconType: 47,
-						x: 0.38665664,
-						y: 0.30743244,
-						flags: 0,
-					},
-					mapTextItem: {
-						text: 'Shattered Advance',
-						x: 0.38944197,
-						y: 0.30851248,
-						mapMarkerType: 'Major',
-					},
-				},
-			})
-		).toEqual({
-			event: EventType.Lost,
-			byTeam: 'WARDENS',
-		});
-
-		expect(
-			determineEventStatusType({
-				old: {
-					mapItem: {
-						teamId: 'COLONIALS',
-						iconType: 56,
-						x: 0.70331603,
-						y: 0.38726288,
+						iconType: 40,
+						x: 0.11745039,
+						y: 0.473913,
 						flags: 4,
 					},
 					mapTextItem: {
-						text: 'Ice Ranch',
-						x: 0.70420206,
-						y: 0.3878927,
+						text: 'Hungry Wolf',
+						x: 0.17645623,
+						y: 0.46003953,
 						mapMarkerType: 'Major',
 					},
 				},
 				new: {
 					mapItem: {
 						teamId: 'NONE',
-						iconType: 56,
-						x: 0.70331603,
-						y: 0.38726288,
+						iconType: 40,
+						x: 0.11745039,
+						y: 0.473913,
 						flags: 0,
 					},
 					mapTextItem: {
-						text: 'Ice Ranch',
-						x: 0.70420206,
-						y: 0.3878927,
+						text: 'Hungry Wolf',
+						x: 0.17645623,
+						y: 0.46003953,
 						mapMarkerType: 'Major',
 					},
 				},
 			})
 		).toEqual({
 			event: EventType.ConstructionCancelled,
-			byTeam: 'COLONIALS',
+			byTeam: 'WARDENS',
 		});
-
-		expect(
-			determineEventStatusType({
-				old: {
-					mapItem: {
-						teamId: 'COLONIALS',
-						iconType: 56,
-						x: 0.6399292,
-						y: 0.8997526,
-						flags: 4,
-					},
-					mapTextItem: {
-						text: 'Lockheed',
-						x: 0.6407603,
-						y: 0.8987701,
-						mapMarkerType: 'Major',
-					},
-				},
-				new: {
-					mapItem: {
-						teamId: 'COLONIALS',
-						iconType: 58,
-						x: 0.6399292,
-						y: 0.8997526,
-						flags: 8,
-					},
-					mapTextItem: {
-						text: 'Lockheed',
-						x: 0.6407603,
-						y: 0.8987701,
-						mapMarkerType: 'Major',
-					},
-				},
-			})
-		).toEqual({
-			event: EventType.Upgraded,
-			byTeam: 'COLONIALS',
-		});
-	});
-
-	expect(
-		determineEventStatusType({
-			old: {
-				mapItem: {
-					teamId: 'COLONIALS',
-					iconType: 45,
-					x: 0.6523639,
-					y: 0.7225221,
-					flags: 4,
-				},
-				mapTextItem: {
-					text: 'Spirit Watch',
-					x: 0.6523898,
-					y: 0.7255189,
-					mapMarkerType: 'Major',
-				},
-			},
-			new: {
-				mapItem: {
-					teamId: 'COLONIALS',
-					iconType: 45,
-					x: 0.6523639,
-					y: 0.7225221,
-					flags: 8,
-				},
-				mapTextItem: {
-					text: 'Spirit Watch',
-					x: 0.6523898,
-					y: 0.7255189,
-					mapMarkerType: 'Major',
-				},
-			},
-		})
-	).toEqual({
-		event: EventType.Won,
-		byTeam: 'COLONIALS',
 	});
 });
 
