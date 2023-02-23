@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/art0rz/foxhole-warapi/compare/v1.2.2...v1.3.0) (2023-02-23)
+
+
+### Features
+
+* add functions for diffing old and new data and getting event type ([5961b13](https://github.com/art0rz/foxhole-warapi/commit/5961b13f5384d6a67345aa161a4f01a867a11ff5))
+
 ## [1.2.2](https://github.com/art0rz/foxhole-warapi/compare/v1.2.1...v1.2.2) (2023-02-22)
 
 ## [1.2.1](https://github.com/art0rz/foxhole-warapi/compare/v1.2.0...v1.2.1) (2023-02-22)
