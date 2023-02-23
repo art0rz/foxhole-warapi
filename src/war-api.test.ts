@@ -306,6 +306,44 @@ describe('determineEventStatusType', () => {
 			event: EventType.ConstructionCancelled,
 			byTeam: 'COLONIALS',
 		});
+
+		expect(
+			determineEventStatusType({
+				old: {
+					mapItem: {
+						teamId: 'COLONIALS',
+						iconType: 56,
+						x: 0.41615328,
+						y: 0.70517087,
+						flags: 8,
+					},
+					mapTextItem: {
+						text: 'The First Coin',
+						x: 0.40840903,
+						y: 0.7184508,
+						mapMarkerType: 'Major',
+					},
+				},
+				new: {
+					mapItem: {
+						teamId: 'COLONIALS',
+						iconType: 57,
+						x: 0.41615328,
+						y: 0.70517087,
+						flags: 4,
+					},
+					mapTextItem: {
+						text: 'The First Coin',
+						x: 0.40840903,
+						y: 0.7184508,
+						mapMarkerType: 'Major',
+					},
+				},
+			})
+		).toEqual({
+			event: EventType.Upgrading,
+			byTeam: 'COLONIALS',
+		});
 	});
 });
 

@@ -134,5 +134,17 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		};
 	}
 
+	if (
+		oldFlags.includes(MapFlags.IsBuildSite) === false &&
+		newFlags.includes(MapFlags.IsBuildSite) === true &&
+		data.old.mapItem.teamId !== 'NONE' &&
+		data.new.mapItem.teamId === data.old.mapItem.teamId
+	) {
+		return {
+			event: EventType.Upgrading,
+			byTeam: data.old.mapItem.teamId,
+		};
+	}
+
 	return undefined;
 }
