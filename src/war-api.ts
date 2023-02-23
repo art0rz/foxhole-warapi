@@ -122,6 +122,18 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 	}
 
 	if (
+		oldFlags.includes(MapFlags.IsBuildSite) === true &&
+		newFlags.includes(MapFlags.IsBuildSite) === false &&
+		data.old.mapItem.teamId !== 'NONE' &&
+		data.old.mapItem.teamId === data.new.mapItem.teamId
+	) {
+		return {
+			event: EventType.Won,
+			byTeam: data.new.mapItem.teamId,
+		};
+	}
+
+	if (
 		oldFlags.includes(MapFlags.IsBuildSite) === false &&
 		newFlags.includes(MapFlags.IsBuildSite) === false &&
 		data.old.mapItem.teamId !== 'NONE' &&

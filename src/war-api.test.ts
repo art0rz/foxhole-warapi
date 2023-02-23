@@ -307,6 +307,44 @@ describe('determineEventStatusType', () => {
 			byTeam: 'COLONIALS',
 		});
 	});
+
+	expect(
+		determineEventStatusType({
+			old: {
+				mapItem: {
+					teamId: 'COLONIALS',
+					iconType: 45,
+					x: 0.6523639,
+					y: 0.7225221,
+					flags: 4,
+				},
+				mapTextItem: {
+					text: 'Spirit Watch',
+					x: 0.6523898,
+					y: 0.7255189,
+					mapMarkerType: 'Major',
+				},
+			},
+			new: {
+				mapItem: {
+					teamId: 'COLONIALS',
+					iconType: 45,
+					x: 0.6523639,
+					y: 0.7225221,
+					flags: 8,
+				},
+				mapTextItem: {
+					text: 'Spirit Watch',
+					x: 0.6523898,
+					y: 0.7255189,
+					mapMarkerType: 'Major',
+				},
+			},
+		})
+	).toEqual({
+		event: EventType.Won,
+		byTeam: 'COLONIALS',
+	});
 });
 
 describe('diffCombinedMapData', () => {
