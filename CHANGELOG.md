@@ -1,3 +1,10 @@
+## [1.5.5](https://github.com/art0rz/foxhole-warapi/compare/v1.5.4...v1.5.5) (2023-02-23)
+
+
+### Bug Fixes
+
+* **determineEventStatusType:** improve event type matching ([faccaba](https://github.com/art0rz/foxhole-warapi/commit/faccabad079f767e7e0fee366a4b93b91d491951))
+
 ## [1.5.4](https://github.com/art0rz/foxhole-warapi/compare/v1.5.3...v1.5.4) (2023-02-23)
 
 
