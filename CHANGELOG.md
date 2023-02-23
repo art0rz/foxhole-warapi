@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/art0rz/foxhole-warapi/compare/v1.4.0...v1.5.0) (2023-02-23)
+
+
+### Features
+
+* **pipeline:** add status badges ([0c8a76c](https://github.com/art0rz/foxhole-warapi/commit/0c8a76cff19649e55c0032cdff979f37087ee24d))
+
 # [1.4.0](https://github.com/art0rz/foxhole-warapi/compare/v1.3.1...v1.4.0) (2023-02-23)
 
 
