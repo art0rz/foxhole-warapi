@@ -1,13 +1,5 @@
-import { CombinedMapData, MapItem, MapTextItem } from './types';
+import { CombinedMapData, DiffedMapData, EventType, MapFlags, MapItem, MapTextItem, Event } from './types';
 import { distanceBetweenPoints } from './math';
-
-export enum MapFlags {
-	IsVictoryBase = 'IsVictoryBase',
-	IsHomeBase = 'IsHomeBase', // Removed in v0.29
-	IsBuildSite = 'IsBuildSite',
-	IsScorched = 'IsScorched', // v0.22
-	IsTownClaimed = 'IsTownClaimed', // v0.26
-}
 
 const mapFlagValues: Record<MapFlags, number> = {
 	[MapFlags.IsVictoryBase]: 0x01,
@@ -58,4 +50,89 @@ export function hasMapFlag(flags: number, flag: MapFlags): boolean {
 export function getMapFlags(flags: number): Array<MapFlags> {
 	// eslint-disable-next-line no-bitwise
 	return Object.values(MapFlags).filter(flag => hasMapFlag(flags, flag));
+}
+
+/**
+ * Returns a list of CombinedMapData where the map flags or team id from the two arguments is different. Assumes that the order of the two lists is the same.
+ * @param data1
+ * @param data2
+ */
+export function diffCombinedMapData(
+	data1: Array<CombinedMapData>,
+	data2: Array<CombinedMapData>
+): Array<DiffedMapData> {
+	const different = data2.filter((item, index) => {
+		return item.mapItem.flags !== data1[index].mapItem.flags || item.mapItem.teamId !== data1[index].mapItem.teamId;
+	});
+
+	return different.map(item => ({
+		old: data1[data2.indexOf(item)],
+		new: item,
+	}));
+}
+
+export function determineEventStatusType(data: DiffedMapData): Event | undefined {
+	const oldFlags = getMapFlags(data.old.mapItem.flags);
+	const newFlags = getMapFlags(data.new.mapItem.flags);
+
+	if (
+		oldFlags.includes(MapFlags.IsBuildSite) === false &&
+		newFlags.includes(MapFlags.IsBuildSite) === true &&
+		data.old.mapItem.teamId === 'NONE' &&
+		data.new.mapItem.teamId !== 'NONE'
+	) {
+		return {
+			event: EventType.UnderConstruction,
+			byTeam: data.new.mapItem.teamId,
+		};
+	}
+
+	if (
+		oldFlags.includes(MapFlags.IsBuildSite) === true &&
+		newFlags.includes(MapFlags.IsBuildSite) === false &&
+		data.old.mapItem.teamId === data.new.mapItem.teamId
+	) {
+		return {
+			event: EventType.Won,
+			byTeam: data.new.mapItem.teamId,
+		};
+	}
+
+	if (
+		oldFlags.includes(MapFlags.IsBuildSite) === false &&
+		newFlags.includes(MapFlags.IsBuildSite) === false &&
+		data.old.mapItem.teamId === 'NONE' &&
+		data.new.mapItem.teamId !== 'NONE'
+	) {
+		return {
+			event: EventType.Won,
+			byTeam: data.new.mapItem.teamId,
+		};
+	}
+
+	if (
+		oldFlags.includes(MapFlags.IsBuildSite) === false &&
+		newFlags.includes(MapFlags.IsBuildSite) === false &&
+		data.old.mapItem.teamId !== 'NONE' &&
+		data.new.mapItem.teamId === 'NONE'
+	) {
+		return {
+			event: EventType.Lost,
+			byTeam: data.old.mapItem.teamId,
+		};
+	}
+
+	if (
+		oldFlags.includes(MapFlags.IsBuildSite) === true &&
+		newFlags.includes(MapFlags.IsBuildSite) === false &&
+		data.old.mapItem.teamId !== 'NONE' &&
+		data.new.mapItem.teamId === 'NONE'
+	) {
+		return {
+			event: EventType.ConstructionCancelled,
+			byTeam: data.old.mapItem.teamId,
+		};
+	}
+
+	return undefined;
 }

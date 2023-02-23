@@ -71,6 +71,14 @@ export enum MapIconTypes {
 	Oil_Field = 62, // v0.50
 }
 
+export enum MapFlags {
+	IsVictoryBase = 'IsVictoryBase',
+	IsHomeBase = 'IsHomeBase', // Removed in v0.29
+	IsBuildSite = 'IsBuildSite',
+	IsScorched = 'IsScorched', // v0.22
+	IsTownClaimed = 'IsTownClaimed', // v0.26
+}
+
 export interface MapItem {
 	teamId: TeamId;
 	iconType: MapIconTypes;
@@ -100,4 +108,27 @@ export interface MapTextItem {
 export interface CombinedMapData {
 	mapItem: MapItem;
 	mapTextItem: MapTextItem;
+}
+
+export interface DiffedMapData {
+	old: {
+		mapItem: MapItem;
+		mapTextItem: MapTextItem;
+	};
+	new: {
+		mapItem: MapItem;
+		mapTextItem: MapTextItem;
+	};
+}
+
+export enum EventType {
+	Lost = 'Lost',
+	UnderConstruction = 'UnderConstruction',
+	ConstructionCancelled = 'ConstructionCancelled',
+	Won = 'Won',
+}
+
+export interface Event {
+	event: EventType;
+	byTeam: TeamId;
 }
