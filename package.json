@@ -11,7 +11,7 @@
     "build": "rimraf dist && rollup -c rollup.config.mjs",
     "lint": "eslint \"src/**/*.{js,ts,tsx}\" --cache",
     "lint:fix": "npm run lint -- --fix",
-    "docs": "typedoc --out docs --readme none src/index.ts",
+    "docs": "coverage-badge-creator && typedoc --out docs --readme none src/index.ts",
     "semantic-release": "semantic-release",
     "precommit": "lint-staged"
   },
