@@ -20,17 +20,17 @@
 
 #### Defined in
 
-[types.ts:8](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/types.ts#L8)
+[types.ts:87](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/types.ts#L87)
 
 ___
 
 ### iconType
 
-• **iconType**: `number`
+• **iconType**: [`MapIconTypes`](../enums/MapIconTypes.md)
 
 #### Defined in
 
-[types.ts:5](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/types.ts#L5)
+[types.ts:84](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/types.ts#L84)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[types.ts:4](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/types.ts#L4)
+[types.ts:83](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/types.ts#L83)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[types.ts:6](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/types.ts#L6)
+[types.ts:85](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/types.ts#L85)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[types.ts:7](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/types.ts#L7)
+[types.ts:86](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/types.ts#L86)

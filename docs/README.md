@@ -6,13 +6,20 @@ foxhole-warapi
 
 ### Enumerations
 
+- [EventType](enums/EventType.md)
 - [MapFlags](enums/MapFlags.md)
+- [MapIconTypes](enums/MapIconTypes.md)
 
 ### Interfaces
 
+- [CombinedMapData](interfaces/CombinedMapData.md)
+- [DiffedMapData](interfaces/DiffedMapData.md)
+- [Event](interfaces/Event.md)
 - [MapData](interfaces/MapData.md)
 - [MapItem](interfaces/MapItem.md)
 - [MapTextItem](interfaces/MapTextItem.md)
+- [WarInfo](interfaces/WarInfo.md)
+- [WarReport](interfaces/WarReport.md)
 
 ### Type Aliases
 
@@ -22,6 +29,8 @@ foxhole-warapi
 ### Functions
 
 - [combineDynamicWithStaticData](README.md#combinedynamicwithstaticdata)
+- [determineEventStatusType](README.md#determineeventstatustype)
+- [diffCombinedMapData](README.md#diffcombinedmapdata)
 - [findNearestTextItem](README.md#findnearesttextitem)
 - [getMapFlags](README.md#getmapflags)
 - [hasMapFlag](README.md#hasmapflag)
@@ -34,7 +43,7 @@ foxhole-warapi
 
 #### Defined in
 
-[types.ts:20](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/types.ts#L20)
+[types.ts:99](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/types.ts#L99)
 
 ___
 
@@ -44,13 +53,13 @@ ___
 
 #### Defined in
 
-[types.ts:1](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/types.ts#L1)
+[types.ts:1](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/types.ts#L1)
 
 ## Functions
 
 ### combineDynamicWithStaticData
 
-▸ **combineDynamicWithStaticData**(`mapItems`, `mapTextItems`): { `mapItem`: [`MapItem`](interfaces/MapItem.md) ; `mapTextItem`: [`MapTextItem`](interfaces/MapTextItem.md)  }[]
+▸ **combineDynamicWithStaticData**(`mapItems`, `mapTextItems`): [`CombinedMapData`](interfaces/CombinedMapData.md)[]
 
 Matches each MapItem with the closest MapTextItem.
 
@@ -63,11 +72,54 @@ Matches each MapItem with the closest MapTextItem.
 
 #### Returns
 
-{ `mapItem`: [`MapItem`](interfaces/MapItem.md) ; `mapTextItem`: [`MapTextItem`](interfaces/MapTextItem.md)  }[]
+[`CombinedMapData`](interfaces/CombinedMapData.md)[]
 
 #### Defined in
 
-[war-api.ts:32](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/war-api.ts#L32)
+[war-api.ts:24](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/war-api.ts#L24)
+
+___
+
+### determineEventStatusType
+
+▸ **determineEventStatusType**(`data`): [`Event`](interfaces/Event.md) \| `undefined`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`DiffedMapData`](interfaces/DiffedMapData.md) |
+
+#### Returns
+
+[`Event`](interfaces/Event.md) \| `undefined`
+
+#### Defined in
+
+[war-api.ts:74](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/war-api.ts#L74)
+
+___
+
+### diffCombinedMapData
+
+▸ **diffCombinedMapData**(`data1`, `data2`): [`DiffedMapData`](interfaces/DiffedMapData.md)[]
+
+Returns a list of CombinedMapData where the map flags or team id from the two arguments is different. Assumes that the order of the two lists is the same.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data1` | [`CombinedMapData`](interfaces/CombinedMapData.md)[] |
+| `data2` | [`CombinedMapData`](interfaces/CombinedMapData.md)[] |
+
+#### Returns
+
+[`DiffedMapData`](interfaces/DiffedMapData.md)[]
+
+#### Defined in
+
+[war-api.ts:60](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/war-api.ts#L60)
 
 ___
 
@@ -90,7 +142,7 @@ Given a MapItem and a list of MapTextItems, finds the nearest MapTextItem. This 
 
 #### Defined in
 
-[war-api.ts:23](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/war-api.ts#L23)
+[war-api.ts:15](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/war-api.ts#L15)
 
 ___
 
@@ -112,7 +164,7 @@ Returns a list of each MapFlag that the flags contain.
 
 #### Defined in
 
-[war-api.ts:61](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/war-api.ts#L61)
+[war-api.ts:50](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/war-api.ts#L50)
 
 ___
 
@@ -135,4 +187,4 @@ Returns true if the flags number contains the given MapFlag.
 
 #### Defined in
 
-[war-api.ts:53](https://github.com/art0rz/foxhole-warapi/blob/4a63186/src/war-api.ts#L53)
+[war-api.ts:42](https://github.com/art0rz/foxhole-warapi/blob/036ec6a/src/war-api.ts#L42)

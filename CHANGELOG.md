@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/art0rz/foxhole-warapi/compare/v1.3.0...v1.3.1) (2023-02-23)
+
+
+### Bug Fixes
+
+* **pipeline:** make semantic-release also commit new docs ([036ec6a](https://github.com/art0rz/foxhole-warapi/commit/036ec6a6d9967d31ef89f3d8c28e131344b4e3ec))
+
 # [1.3.0](https://github.com/art0rz/foxhole-warapi/compare/v1.2.2...v1.3.0) (2023-02-23)
 
 
