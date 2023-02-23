@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/art0rz/foxhole-warapi/compare/v1.5.0...v1.5.1) (2023-02-23)
+
+
+### Bug Fixes
+
+* **tests:** turn on collectCoverage ([04a2bac](https://github.com/art0rz/foxhole-warapi/commit/04a2bac1ef5f1f870938be7bb1f95892fe9acc57))
+
 # [1.5.0](https://github.com/art0rz/foxhole-warapi/compare/v1.4.0...v1.5.0) (2023-02-23)
 
 
