@@ -125,7 +125,7 @@ export enum EventType {
 	Lost = 'Lost',
 	UnderConstruction = 'UnderConstruction',
 	ConstructionCancelled = 'ConstructionCancelled',
-	Won = 'Won',
+	Taken = 'Taken',
 	Upgraded = 'Upgraded',
 }
 

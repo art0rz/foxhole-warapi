@@ -108,7 +108,7 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		data.new.mapItem.teamId !== 'NONE'
 	) {
 		return {
-			event: EventType.Won,
+			event: EventType.Taken,
 			byTeam: data.new.mapItem.teamId,
 		};
 	}
@@ -120,7 +120,7 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		data.old.mapItem.teamId === data.new.mapItem.teamId
 	) {
 		return {
-			event: EventType.Won,
+			event: EventType.Taken,
 			byTeam: data.new.mapItem.teamId,
 		};
 	}
