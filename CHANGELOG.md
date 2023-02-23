@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/art0rz/foxhole-warapi/compare/v1.5.2...v1.5.3) (2023-02-23)
+
+
+### Bug Fixes
+
+* **determineEventStatusType:** add `Upgrading` status ([f2ea5d4](https://github.com/art0rz/foxhole-warapi/commit/f2ea5d4c5952b04b5717264c6cb9460f2b5e4450))
+
 ## [1.5.2](https://github.com/art0rz/foxhole-warapi/compare/v1.5.1...v1.5.2) (2023-02-23)
 
 

@@ -9,6 +9,7 @@
 - [ConstructionCancelled](EventType.md#constructioncancelled)
 - [Lost](EventType.md#lost)
 - [UnderConstruction](EventType.md#underconstruction)
+- [Upgrading](EventType.md#upgrading)
 - [Won](EventType.md#won)
 
 ## Enumeration Members
@@ -19,7 +20,7 @@
 
 #### Defined in
 
-[types.ts:127](https://github.com/art0rz/foxhole-warapi/blob/010af4a/src/types.ts#L127)
+[types.ts:127](https://github.com/art0rz/foxhole-warapi/blob/f2ea5d4/src/types.ts#L127)
 
 ___
 
@@ -29,7 +30,7 @@ ___
 
 #### Defined in
 
-[types.ts:125](https://github.com/art0rz/foxhole-warapi/blob/010af4a/src/types.ts#L125)
+[types.ts:125](https://github.com/art0rz/foxhole-warapi/blob/f2ea5d4/src/types.ts#L125)
 
 ___
 
@@ -39,7 +40,17 @@ ___
 
 #### Defined in
 
-[types.ts:126](https://github.com/art0rz/foxhole-warapi/blob/010af4a/src/types.ts#L126)
+[types.ts:126](https://github.com/art0rz/foxhole-warapi/blob/f2ea5d4/src/types.ts#L126)
+
+___
+
+### Upgrading
+
+• **Upgrading** = ``"Upgrading"``
+
+#### Defined in
+
+[types.ts:129](https://github.com/art0rz/foxhole-warapi/blob/f2ea5d4/src/types.ts#L129)
 
 ___
 
@@ -49,4 +60,4 @@ ___
 
 #### Defined in
 
-[types.ts:128](https://github.com/art0rz/foxhole-warapi/blob/010af4a/src/types.ts#L128)
+[types.ts:128](https://github.com/art0rz/foxhole-warapi/blob/f2ea5d4/src/types.ts#L128)
