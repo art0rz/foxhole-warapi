@@ -4,3 +4,4 @@ dist
 coverage
 .eslintcache
 yarn.lock
+/index.*

@@ -1,31 +1,34 @@
-import typescript from '@rollup/plugin-typescript';
 import dts from 'rollup-plugin-dts';
-import terser from '@rollup/plugin-terser';
+import esbuild from 'rollup-plugin-esbuild';
 import pkg from './package.json' assert { type: 'json' };
 
-export default [{
+const bundle = config => ({
+	...config,
 	input: 'src/index.ts',
-	output: [
-		{
-			file: pkg.main,
-			format: 'cjs'
+	external: id => !/^[./]/.test(id),
+})
+
+export default [
+	bundle({
+		plugins: [esbuild()],
+		output: [
+			{
+				file: pkg.main,
+				format: 'cjs',
+				sourcemap: true,
+			},
+			{
+				file: pkg.module,
+				format: 'es',
+				sourcemap: true,
+			},
+		],
+	}),
+	bundle({
+		plugins: [dts()],
+		output: {
+			file: pkg.types,
+			format: 'es',
 		},
-		{
-			file: pkg.module,
-			format: 'es' // the preferred format
-		},
-		{
-			file: pkg.browser,
-			format: 'iife',
-			name: 'FoxholeWarAPI' // the global which can be used in a browser
-		}
-	],
-	plugins: [typescript(), terser()]
-}, {
-	input: 'src/index.ts',
-	output: {
-		file: pkg.types,
-		format: 'cjs'
-	},
-	plugins: [dts()]
-}];
+	}),
+]

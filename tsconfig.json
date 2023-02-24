@@ -2,11 +2,11 @@
   "compilerOptions": {
     "strict": true,
     "esModuleInterop": true,
-    "target": "es5",
+    "target": "esnext",
     "lib": ["ES2021"],
     "types": ["node", "jest"],
     "noEmit": true,
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "moduleResolution": "node"
   },
   "include": ["src/**/*"],
