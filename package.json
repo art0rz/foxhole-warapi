@@ -18,9 +18,7 @@
   "author": "Stuart van Beek <me@stuartvanbeek.org>",
   "license": "ISC",
   "files": [
-    "index.js",
-    "index.d.ts",
-    "index.mjs",
+    "./index.*",
     "docs"
   ],
   "devDependencies": {
