@@ -1,6 +1,6 @@
 {
   "name": "foxhole-warapi",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "description": "Foxhole WarAPI utilities and types",
   "source": "src/index.ts",
   "main": "index.js",

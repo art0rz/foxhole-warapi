@@ -1,3 +1,10 @@
+## [1.5.8](https://github.com/art0rz/foxhole-warapi/compare/v1.5.7...v1.5.8) (2023-02-24)
+
+
+### Bug Fixes
+
+* **build:** include source maps in package ([e3ebc34](https://github.com/art0rz/foxhole-warapi/commit/e3ebc34e2418f04b36215611434989eb4ab6b7ec))
+
 ## [1.5.7](https://github.com/art0rz/foxhole-warapi/compare/v1.5.6...v1.5.7) (2023-02-24)
 
 ## [1.5.6](https://github.com/art0rz/foxhole-warapi/compare/v1.5.5...v1.5.6) (2023-02-23)
