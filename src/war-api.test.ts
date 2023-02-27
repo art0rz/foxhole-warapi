@@ -153,6 +153,10 @@ describe('determineEventStatusType', () => {
 		).toEqual({
 			event: EventType.Upgraded,
 			byTeam: 'COLONIALS',
+			iconType: 56,
+			text: 'Tuatha Watchpost',
+			x: 0.8525794,
+			y: 0.5295663,
 		});
 		expect(
 			determineEventStatusType({
@@ -190,6 +194,10 @@ describe('determineEventStatusType', () => {
 		).toEqual({
 			event: EventType.Lost,
 			byTeam: 'COLONIALS',
+			iconType: 45,
+			text: 'Spirit Watch',
+			x: 0.6523639,
+			y: 0.7225221,
 		});
 
 		expect(
@@ -228,6 +236,10 @@ describe('determineEventStatusType', () => {
 		).toEqual({
 			event: EventType.Lost,
 			byTeam: 'COLONIALS',
+			iconType: 28,
+			text: 'Mousetrap',
+			x: 0.841185,
+			y: 0.52723134,
 		});
 
 		expect(
@@ -266,6 +278,10 @@ describe('determineEventStatusType', () => {
 		).toEqual({
 			event: EventType.Lost,
 			byTeam: 'COLONIALS',
+			iconType: 56,
+			text: 'Mousetrap',
+			x: 0.8392175,
+			y: 0.54724175,
 		});
 
 		expect(
@@ -304,6 +320,10 @@ describe('determineEventStatusType', () => {
 		).toEqual({
 			event: EventType.UnderConstruction,
 			byTeam: 'WARDENS',
+			iconType: 40,
+			text: 'Hungry Wolf',
+			x: 0.11745039,
+			y: 0.473913,
 		});
 
 		expect(
@@ -342,6 +362,10 @@ describe('determineEventStatusType', () => {
 		).toEqual({
 			event: EventType.ConstructionCancelled,
 			byTeam: 'WARDENS',
+			iconType: 40,
+			text: 'Hungry Wolf',
+			x: 0.11745039,
+			y: 0.473913,
 		});
 	});
 });

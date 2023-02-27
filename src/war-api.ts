@@ -84,6 +84,10 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		return {
 			event: EventType.UnderConstruction,
 			byTeam: data.new.mapItem.teamId,
+			iconType: data.old.mapItem.iconType,
+			x: data.old.mapItem.x,
+			y: data.old.mapItem.y,
+			text: data.old.mapTextItem.text,
 		};
 	}
 
@@ -98,6 +102,10 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		return {
 			event: EventType.Upgraded,
 			byTeam: data.new.mapItem.teamId,
+			iconType: data.old.mapItem.iconType,
+			x: data.old.mapItem.x,
+			y: data.old.mapItem.y,
+			text: data.old.mapTextItem.text,
 		};
 	}
 
@@ -110,6 +118,10 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		return {
 			event: EventType.Taken,
 			byTeam: data.new.mapItem.teamId,
+			iconType: data.old.mapItem.iconType,
+			x: data.old.mapItem.x,
+			y: data.old.mapItem.y,
+			text: data.old.mapTextItem.text,
 		};
 	}
 
@@ -122,6 +134,10 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		return {
 			event: EventType.Taken,
 			byTeam: data.new.mapItem.teamId,
+			iconType: data.old.mapItem.iconType,
+			x: data.old.mapItem.x,
+			y: data.old.mapItem.y,
+			text: data.old.mapTextItem.text,
 		};
 	}
 
@@ -134,6 +150,10 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		return {
 			event: EventType.Lost,
 			byTeam: data.old.mapItem.teamId,
+			iconType: data.old.mapItem.iconType,
+			x: data.old.mapItem.x,
+			y: data.old.mapItem.y,
+			text: data.old.mapTextItem.text,
 		};
 	}
 
@@ -146,6 +166,10 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		return {
 			event: EventType.ConstructionCancelled,
 			byTeam: data.old.mapItem.teamId,
+			iconType: data.old.mapItem.iconType,
+			x: data.old.mapItem.x,
+			y: data.old.mapItem.y,
+			text: data.old.mapTextItem.text,
 		};
 	}
 
