@@ -8,6 +8,10 @@
 
 - [byTeam](Event.md#byteam)
 - [event](Event.md#event)
+- [iconType](Event.md#icontype)
+- [text](Event.md#text)
+- [x](Event.md#x)
+- [y](Event.md#y)
 
 ## Properties
 
@@ -17,7 +21,7 @@
 
 #### Defined in
 
-[types.ts:134](https://github.com/art0rz/foxhole-warapi/blob/e3ebc34/src/types.ts#L134)
+[types.ts:134](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L134)
 
 ___
 
@@ -27,4 +31,44 @@ ___
 
 #### Defined in
 
-[types.ts:133](https://github.com/art0rz/foxhole-warapi/blob/e3ebc34/src/types.ts#L133)
+[types.ts:133](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L133)
+
+___
+
+### iconType
+
+• **iconType**: `number`
+
+#### Defined in
+
+[types.ts:135](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L135)
+
+___
+
+### text
+
+• **text**: `string`
+
+#### Defined in
+
+[types.ts:136](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L136)
+
+___
+
+### x
+
+• **x**: `number`
+
+#### Defined in
+
+[types.ts:137](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L137)
+
+___
+
+### y
+
+• **y**: `number`
+
+#### Defined in
+
+[types.ts:138](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L138)

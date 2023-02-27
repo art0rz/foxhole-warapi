@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/art0rz/foxhole-warapi/compare/v1.5.8...v1.6.0) (2023-02-27)
+
+
+### Features
+
+* include iconType/text/x/y in Event type ([f01d4a6](https://github.com/art0rz/foxhole-warapi/commit/f01d4a603259d821f1232cf97f6d562d28af4941))
+
 ## [1.5.8](https://github.com/art0rz/foxhole-warapi/compare/v1.5.7...v1.5.8) (2023-02-24)
 
 
