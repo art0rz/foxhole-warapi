@@ -130,6 +130,7 @@ export enum EventType {
 }
 
 export interface Event {
+	date: Date;
 	event: EventType;
 	byTeam: TeamId;
 	iconType: number;

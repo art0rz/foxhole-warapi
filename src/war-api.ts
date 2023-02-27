@@ -74,6 +74,7 @@ export function diffCombinedMapData(
 export function determineEventStatusType(data: DiffedMapData): Event | undefined {
 	const oldFlags = getMapFlags(data.old.mapItem.flags);
 	const newFlags = getMapFlags(data.new.mapItem.flags);
+	const date = new Date();
 
 	if (
 		oldFlags.includes(MapFlags.IsBuildSite) === false &&
@@ -82,6 +83,7 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		data.new.mapItem.teamId !== 'NONE'
 	) {
 		return {
+			date,
 			event: EventType.UnderConstruction,
 			byTeam: data.new.mapItem.teamId,
 			iconType: data.old.mapItem.iconType,
@@ -100,6 +102,7 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		data.old.mapItem.teamId === data.new.mapItem.teamId
 	) {
 		return {
+			date,
 			event: EventType.Upgraded,
 			byTeam: data.new.mapItem.teamId,
 			iconType: data.old.mapItem.iconType,
@@ -116,6 +119,7 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		data.new.mapItem.teamId !== 'NONE'
 	) {
 		return {
+			date,
 			event: EventType.Taken,
 			byTeam: data.new.mapItem.teamId,
 			iconType: data.old.mapItem.iconType,
@@ -132,6 +136,7 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		data.old.mapItem.teamId === data.new.mapItem.teamId
 	) {
 		return {
+			date,
 			event: EventType.Taken,
 			byTeam: data.new.mapItem.teamId,
 			iconType: data.old.mapItem.iconType,
@@ -148,6 +153,7 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		data.new.mapItem.teamId === 'NONE'
 	) {
 		return {
+			date,
 			event: EventType.Lost,
 			byTeam: data.old.mapItem.teamId,
 			iconType: data.old.mapItem.iconType,
@@ -164,6 +170,7 @@ export function determineEventStatusType(data: DiffedMapData): Event | undefined
 		data.new.mapItem.teamId === 'NONE'
 	) {
 		return {
+			date,
 			event: EventType.ConstructionCancelled,
 			byTeam: data.old.mapItem.teamId,
 			iconType: data.old.mapItem.iconType,

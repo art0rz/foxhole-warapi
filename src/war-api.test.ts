@@ -7,6 +7,15 @@ import {
 } from './war-api';
 import { EventType, MapFlags } from './types';
 
+function determineEventStatusTypeExcludingDate(
+	...args: Parameters<typeof determineEventStatusType>
+): Omit<ReturnType<typeof determineEventStatusType>, 'date'> {
+	return {
+		...determineEventStatusType(...args),
+		date: undefined,
+	};
+}
+
 describe('findNearestTextItem', () => {
 	it('should find the nearest item', () => {
 		expect(
@@ -118,7 +127,7 @@ describe('getMapFlags', () => {
 describe('determineEventStatusType', () => {
 	it('should return the correct event type and teamId', () => {
 		expect(
-			determineEventStatusType({
+			determineEventStatusTypeExcludingDate({
 				old: {
 					mapItem: {
 						teamId: 'COLONIALS',
@@ -159,7 +168,7 @@ describe('determineEventStatusType', () => {
 			y: 0.5295663,
 		});
 		expect(
-			determineEventStatusType({
+			determineEventStatusTypeExcludingDate({
 				old: {
 					mapItem: {
 						teamId: 'COLONIALS',
@@ -201,7 +210,7 @@ describe('determineEventStatusType', () => {
 		});
 
 		expect(
-			determineEventStatusType({
+			determineEventStatusTypeExcludingDate({
 				old: {
 					mapItem: {
 						teamId: 'COLONIALS',
@@ -243,7 +252,7 @@ describe('determineEventStatusType', () => {
 		});
 
 		expect(
-			determineEventStatusType({
+			determineEventStatusTypeExcludingDate({
 				old: {
 					mapItem: {
 						teamId: 'COLONIALS',
@@ -285,7 +294,7 @@ describe('determineEventStatusType', () => {
 		});
 
 		expect(
-			determineEventStatusType({
+			determineEventStatusTypeExcludingDate({
 				old: {
 					mapItem: {
 						teamId: 'NONE',
@@ -327,7 +336,7 @@ describe('determineEventStatusType', () => {
 		});
 
 		expect(
-			determineEventStatusType({
+			determineEventStatusTypeExcludingDate({
 				old: {
 					mapItem: {
 						teamId: 'WARDENS',
