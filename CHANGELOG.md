@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/art0rz/foxhole-warapi/compare/v1.6.0...v1.7.0) (2023-02-27)
+
+
+### Features
+
+* include date in Event ([52442fe](https://github.com/art0rz/foxhole-warapi/commit/52442fe54dbe52cc9372e0251d41fc2d7c591c74))
+
 # [1.6.0](https://github.com/art0rz/foxhole-warapi/compare/v1.5.8...v1.6.0) (2023-02-27)
 
 

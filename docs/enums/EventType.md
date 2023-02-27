@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[types.ts:127](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L127)
+[types.ts:127](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L127)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[types.ts:125](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L125)
+[types.ts:125](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L125)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[types.ts:128](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L128)
+[types.ts:128](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L128)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[types.ts:126](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L126)
+[types.ts:126](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L126)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[types.ts:129](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L129)
+[types.ts:129](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L129)

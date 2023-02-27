@@ -7,6 +7,7 @@
 ### Properties
 
 - [byTeam](Event.md#byteam)
+- [date](Event.md#date)
 - [event](Event.md#event)
 - [iconType](Event.md#icontype)
 - [text](Event.md#text)
@@ -21,7 +22,17 @@
 
 #### Defined in
 
-[types.ts:134](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L134)
+[types.ts:135](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L135)
+
+___
+
+### date
+
+• **date**: `Date`
+
+#### Defined in
+
+[types.ts:133](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L133)
 
 ___
 
@@ -31,7 +42,7 @@ ___
 
 #### Defined in
 
-[types.ts:133](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L133)
+[types.ts:134](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L134)
 
 ___
 
@@ -41,7 +52,7 @@ ___
 
 #### Defined in
 
-[types.ts:135](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L135)
+[types.ts:136](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L136)
 
 ___
 
@@ -51,7 +62,7 @@ ___
 
 #### Defined in
 
-[types.ts:136](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L136)
+[types.ts:137](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L137)
 
 ___
 
@@ -61,7 +72,7 @@ ___
 
 #### Defined in
 
-[types.ts:137](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L137)
+[types.ts:138](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L138)
 
 ___
 
@@ -71,4 +82,4 @@ ___
 
 #### Defined in
 
-[types.ts:138](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L138)
+[types.ts:139](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L139)

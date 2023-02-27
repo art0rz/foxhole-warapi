@@ -65,7 +65,7 @@
 
 #### Defined in
 
-[types.ts:52](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L52)
+[types.ts:52](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L52)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[types.ts:30](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L30)
+[types.ts:30](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L30)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[types.ts:70](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L70)
+[types.ts:70](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L70)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[types.ts:63](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L63)
+[types.ts:63](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L63)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[types.ts:38](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L38)
+[types.ts:38](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L38)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[types.ts:56](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L56)
+[types.ts:56](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L56)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[types.ts:55](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L55)
+[types.ts:55](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L55)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-[types.ts:50](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L50)
+[types.ts:50](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L50)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-[types.ts:46](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L46)
+[types.ts:46](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L46)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 #### Defined in
 
-[types.ts:25](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L25)
+[types.ts:25](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L25)
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Defined in
 
-[types.ts:26](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L26)
+[types.ts:26](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L26)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-[types.ts:27](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L27)
+[types.ts:27](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L27)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-[types.ts:39](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L39)
+[types.ts:39](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L39)
 
 ___
 
@@ -195,7 +195,7 @@ ___
 
 #### Defined in
 
-[types.ts:51](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L51)
+[types.ts:51](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L51)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-[types.ts:28](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L28)
+[types.ts:28](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L28)
 
 ___
 
@@ -215,7 +215,7 @@ ___
 
 #### Defined in
 
-[types.ts:69](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L69)
+[types.ts:69](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L69)
 
 ___
 
@@ -225,7 +225,7 @@ ___
 
 #### Defined in
 
-[types.ts:33](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L33)
+[types.ts:33](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L33)
 
 ___
 
@@ -235,7 +235,7 @@ ___
 
 #### Defined in
 
-[types.ts:61](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L61)
+[types.ts:61](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L61)
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 #### Defined in
 
-[types.ts:45](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L45)
+[types.ts:45](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L45)
 
 ___
 
@@ -255,7 +255,7 @@ ___
 
 #### Defined in
 
-[types.ts:71](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L71)
+[types.ts:71](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L71)
 
 ___
 
@@ -265,7 +265,7 @@ ___
 
 #### Defined in
 
-[types.ts:57](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L57)
+[types.ts:57](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L57)
 
 ___
 
@@ -275,7 +275,7 @@ ___
 
 #### Defined in
 
-[types.ts:34](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L34)
+[types.ts:34](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L34)
 
 ___
 
@@ -285,7 +285,7 @@ ___
 
 #### Defined in
 
-[types.ts:58](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L58)
+[types.ts:58](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L58)
 
 ___
 
@@ -295,7 +295,7 @@ ___
 
 #### Defined in
 
-[types.ts:59](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L59)
+[types.ts:59](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L59)
 
 ___
 
@@ -305,7 +305,7 @@ ___
 
 #### Defined in
 
-[types.ts:60](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L60)
+[types.ts:60](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L60)
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 #### Defined in
 
-[types.ts:53](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L53)
+[types.ts:53](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L53)
 
 ___
 
@@ -325,7 +325,7 @@ ___
 
 #### Defined in
 
-[types.ts:37](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L37)
+[types.ts:37](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L37)
 
 ___
 
@@ -335,7 +335,7 @@ ___
 
 #### Defined in
 
-[types.ts:54](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L54)
+[types.ts:54](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L54)
 
 ___
 
@@ -345,7 +345,7 @@ ___
 
 #### Defined in
 
-[types.ts:62](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L62)
+[types.ts:62](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L62)
 
 ___
 
@@ -355,7 +355,7 @@ ___
 
 #### Defined in
 
-[types.ts:35](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L35)
+[types.ts:35](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L35)
 
 ___
 
@@ -365,7 +365,7 @@ ___
 
 #### Defined in
 
-[types.ts:64](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L64)
+[types.ts:64](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L64)
 
 ___
 
@@ -375,7 +375,7 @@ ___
 
 #### Defined in
 
-[types.ts:44](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L44)
+[types.ts:44](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L44)
 
 ___
 
@@ -385,7 +385,7 @@ ___
 
 #### Defined in
 
-[types.ts:22](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L22)
+[types.ts:22](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L22)
 
 ___
 
@@ -395,7 +395,7 @@ ___
 
 #### Defined in
 
-[types.ts:23](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L23)
+[types.ts:23](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L23)
 
 ___
 
@@ -405,7 +405,7 @@ ___
 
 #### Defined in
 
-[types.ts:24](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L24)
+[types.ts:24](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L24)
 
 ___
 
@@ -415,7 +415,7 @@ ___
 
 #### Defined in
 
-[types.ts:49](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L49)
+[types.ts:49](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L49)
 
 ___
 
@@ -425,7 +425,7 @@ ___
 
 #### Defined in
 
-[types.ts:68](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L68)
+[types.ts:68](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L68)
 
 ___
 
@@ -435,7 +435,7 @@ ___
 
 #### Defined in
 
-[types.ts:40](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L40)
+[types.ts:40](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L40)
 
 ___
 
@@ -445,7 +445,7 @@ ___
 
 #### Defined in
 
-[types.ts:48](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L48)
+[types.ts:48](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L48)
 
 ___
 
@@ -455,7 +455,7 @@ ___
 
 #### Defined in
 
-[types.ts:31](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L31)
+[types.ts:31](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L31)
 
 ___
 
@@ -465,7 +465,7 @@ ___
 
 #### Defined in
 
-[types.ts:36](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L36)
+[types.ts:36](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L36)
 
 ___
 
@@ -475,7 +475,7 @@ ___
 
 #### Defined in
 
-[types.ts:65](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L65)
+[types.ts:65](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L65)
 
 ___
 
@@ -485,7 +485,7 @@ ___
 
 #### Defined in
 
-[types.ts:66](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L66)
+[types.ts:66](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L66)
 
 ___
 
@@ -495,7 +495,7 @@ ___
 
 #### Defined in
 
-[types.ts:67](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L67)
+[types.ts:67](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L67)
 
 ___
 
@@ -505,7 +505,7 @@ ___
 
 #### Defined in
 
-[types.ts:43](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L43)
+[types.ts:43](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L43)
 
 ___
 
@@ -515,7 +515,7 @@ ___
 
 #### Defined in
 
-[types.ts:42](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L42)
+[types.ts:42](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L42)
 
 ___
 
@@ -525,7 +525,7 @@ ___
 
 #### Defined in
 
-[types.ts:47](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L47)
+[types.ts:47](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L47)
 
 ___
 
@@ -535,7 +535,7 @@ ___
 
 #### Defined in
 
-[types.ts:29](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L29)
+[types.ts:29](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L29)
 
 ___
 
@@ -545,7 +545,7 @@ ___
 
 #### Defined in
 
-[types.ts:32](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L32)
+[types.ts:32](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L32)
 
 ___
 
@@ -555,4 +555,4 @@ ___
 
 #### Defined in
 
-[types.ts:41](https://github.com/art0rz/foxhole-warapi/blob/f01d4a6/src/types.ts#L41)
+[types.ts:41](https://github.com/art0rz/foxhole-warapi/blob/52442fe/src/types.ts#L41)
